@@ -10,7 +10,7 @@ const Footer = () => {
         <ul className='pt-2 text-customGray'>
             <li>Overview</li>
             <li>Features</li>
-            <li>Solutions</li>
+            <li>Solutions   <span className="rounded-3xl p-1.5 w-2 bg-green-100 text-xs md:text-sm">New</span></li>
             <li>Tutorials</li>
             <li>Pricing</li>
             <li>Releases</li>

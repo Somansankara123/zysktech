@@ -44,7 +44,7 @@ const CuttingEdgeSection = () => {
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl  lg:mx-auto">
   
-  <div className="text-center mt-6"> {/* Increased margin top */}
+  <div className="text-center mt-6"> 
     <img src={messageChat} alt="Team collaboration feature" className="mx-auto mb-6 w-12 md:w-16" /> 
     <h2 className="text-lg font-semibold text-gray-800">Share team inboxes</h2>
     <p className="text-gray-600 mt-2 text-sm sm:text-base">

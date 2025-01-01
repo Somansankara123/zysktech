@@ -7,15 +7,16 @@ import people_icon from"../Assets/featuresection/peopleicion.svg"
 
 const Features = () => {
   return (
-    <div className="text-center mt-10">
-      <div className="justify-center mb-8 pt-10">
-        <p className="text-violet-600 font-bold text-lg pt-10">Features</p>
-        <p className="font-semibold text-lg">Analytics, that feel like it's from the future</p>
-        <p className="ml-10">
-          Powerful, self-serve product and growth analytics to help you convert, engage, 
-          <br /> and retain more users. Trusted by over 4,000 startups.
-        </p>
-      </div>
+    <div className="text-center mt-10 flex-col">
+      <div className="text-center items-center mb-8 pt-10">
+  <p className="text-violet-600 font-bold text-lg pt-10">Features</p>
+  <p className="font-semibold text-lg pt-5">Analytics, that feel like it's from the future</p>
+  <p className="w-full sm:w-3/4 md:w-2/5 mx-auto pt-5">
+    Powerful, self-serve product and growth analytics to help you convert, engage, 
+    and retain more users. Trusted by over 4,000 startups.
+  </p>
+</div>
+
       
       <div className="p-10 ml-10">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

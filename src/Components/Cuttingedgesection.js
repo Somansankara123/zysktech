@@ -11,18 +11,18 @@ const CuttingEdgeSection = () => {
   return (
     <div className="lg:py-10  lg:px-6 md:px-10">
       
-      <div className="text-center mb-10">
-        <span className="bg-purple-100 text-purple-600 rounded-2xl px-4 py-1 text-sm inline-block">
-          Features
-        </span>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mt-4">
-          Cutting-edge features for advanced analytics
-        </h1>
-        <p className="text-gray-600 mt-4">
-          Powerful, self-serve product and growth analytics to help you convert, engage,<br></br>
-          and retain more users. Trusted by over 4,000 startups.
-        </p>
-      </div>
+      <div className="text-center mb-10 px-4 sm:px-6 md:px-8">
+  <span className="bg-purple-100 text-purple-600 rounded-2xl px-4 py-1 text-sm inline-block">
+    Features
+  </span>
+  <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mt-4">
+    Cutting-edge features for advanced analytics
+  </h1>
+  <p className="text-gray-600 mt-4 text-sm sm:text-base md:text-lg mx-auto max-w-2xl">
+    Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.
+  </p>
+</div>
+
 
       
       <div className="flex lg:justify-center lg:items-center mb-8">
@@ -45,7 +45,7 @@ const CuttingEdgeSection = () => {
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl  lg:mx-auto">
   
   <div className="text-center mt-6"> {/* Increased margin top */}
-    <img src={messageChat} alt="Team collaboration feature" className="mx-auto mb-6 w-12 md:w-16" /> {/* Smaller icon */}
+    <img src={messageChat} alt="Team collaboration feature" className="mx-auto mb-6 w-12 md:w-16" /> 
     <h2 className="text-lg font-semibold text-gray-800">Share team inboxes</h2>
     <p className="text-gray-600 mt-2 text-sm sm:text-base">
       Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.
@@ -58,7 +58,7 @@ const CuttingEdgeSection = () => {
 
   
   <div className="text-center mt-6"> 
-    <img src={featuredIcon} alt="Instant answers feature" className="mx-auto mb-6 w-12 md:w-16" /> {/* Smaller icon */}
+    <img src={featuredIcon} alt="Instant answers feature" className="mx-auto mb-6 w-12 md:w-16" /> 
     <h2 className="text-lg font-semibold text-gray-800">Deliver instant answers</h2>
     <p className="text-gray-600 mt-2 text-sm sm:text-base">
       An all-in-one customer service platform that helps you balance everything your customers need to be happy.

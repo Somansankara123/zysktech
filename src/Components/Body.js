@@ -37,7 +37,7 @@ const Body = () => {
         </h1>
 
         
-        <p className="text-center text-gray-600 text-lg ml-5 sm:w-4/5   w-3/6  leading-relaxed">
+        <p className="text-center text-gray-600 text-lg lg:mr-50  sm:w-4/5   lg:w-2/4    leading-relaxed">
           Powerful, self-serve product and growth analytics to help you convert,
           engage, and retain more users.
           Trusted by over 4,000 startups.
